@@ -1,12 +1,13 @@
 <template>
   <h1>{{ title }}</h1>
+  <button @click="get">Новый совет</button>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      title: "Hi world!",
+      title: "",
     };
   },
   methods: {
